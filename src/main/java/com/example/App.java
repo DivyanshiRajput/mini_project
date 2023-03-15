@@ -1,15 +1,20 @@
-// Java program for simple calculator
+package com.example;
 
 import java.io.*;
 import java.lang.*;
 import java.lang.Math;
 import java.util.Scanner;
-public class App{
 
-	public static void main(String[] args)
-	{
-		// stores two numbers
-		double num1, num2;
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        double num1, num2;
 
 		// Take input from the user
 		Scanner sc = new Scanner(System.in);
@@ -74,5 +79,9 @@ public class App{
 		// print the final result
 		System.out.println(num1 + " " + op + " " + num2
 						+ " = " + o);
+    }
+
+	public static int add (int a, int b){
+		return a+b;
 	}
 }
