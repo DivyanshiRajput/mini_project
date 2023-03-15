@@ -20,8 +20,8 @@ public class App{
 		num1 = sc.nextDouble();
 
 		num2 = sc.nextDouble();
-
-		System.out.println("Enter the operator (+,-,*,/)");
+	
+		System.out.println("Enter the operator (+,-,*,/,p)");
 
 		char op = sc.next().charAt(0);
 
@@ -56,6 +56,9 @@ public class App{
 			o = num1 / num2;
 
 			break;
+
+		case 'p':
+			o = Math.pow(num1, num2);
 
 		default:
 
