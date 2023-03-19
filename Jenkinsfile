@@ -26,14 +26,6 @@ pipeline {
             }
         }
 
-        // stage('Build and Test') {
-        //     steps {
-        //         echo 'Building and Testing'
-        //         sh 'mvn package'
-        //         echo 'Done!'
-        //     }
-        // }
-
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
