@@ -59,7 +59,11 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'ansible-playbook playbook.yml'
+                // sh 'ansible-playbook playbook.yml'
+                ansiblePlaybook colorized: true,
+                installation: 'Ansible',
+                inventory: 'inventory',
+                playbook: 'playbook.yml'
             }
         }
     }

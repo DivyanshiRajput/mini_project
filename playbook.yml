@@ -1,6 +1,5 @@
----
 - name: Pull docker image of Calculator
-  hosts: localhost
+  hosts: host_machine
   tasks:        
     - name: pull docker image
       shell: docker pull docker.io/divyanshi2241/mini_project:latest

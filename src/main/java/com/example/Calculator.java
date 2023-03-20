@@ -9,7 +9,7 @@ public class Calculator
     {
 		// Take input from the user
 		Scanner sc = new Scanner(System.in);
-
+		String enter = sc.nextLine();
         System.out.println("IMT2019029's scientific calculator");
 
 		while(true){
