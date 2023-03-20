@@ -50,10 +50,16 @@ pipeline {
                 }    
             }
         }
-        
+
+        stage('Cleaning Up') {
+            steps {
+                sh "docker rmi $registry:latest" 
+            }
+        }    
+
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                sh 'ansible-playbook playbook.yml'
             }
         }
     }
