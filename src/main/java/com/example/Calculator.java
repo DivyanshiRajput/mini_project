@@ -9,15 +9,15 @@ public class Calculator
     {
 		// Take input from the user
 		Scanner sc = new Scanner(System.in);
-		String enter = sc.nextLine();
+		sc.nextLine();
         System.out.println("IMT2019029's scientific calculator");
 
 		while(true){
 			System.out.println("Enter the number of operation you want to perform:");
 			System.out.println("1. Square root");
-			System.out.println("2. Exponential");
+			System.out.println("2. Logarithm");
 			System.out.println("3. Factorial");
-			System.out.println("4. Logarithm");
+			System.out.println("4. Exponential");
 			System.out.println("5. Exit");
 
 			System.out.println("Please Enter Your Choice: ");
@@ -25,7 +25,6 @@ public class Calculator
 
 			if(option < 1 || option > 5){
 				System.out.println("Enter a valid choice.");
-				break;
 			}
 
 			else if(option == 5){
@@ -43,11 +42,11 @@ public class Calculator
 				}
 
 				else if(option == 2){
-					result = factorial(num);
+					result = log(num);
 				}
 
 				else if(option == 3){
-					result = log(num);
+					result = factorial(num);
 				}
 
 				else{
@@ -80,7 +79,6 @@ public class Calculator
         {
             result *= i;
         }
-
         return result;
     }
 
