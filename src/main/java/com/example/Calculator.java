@@ -3,14 +3,20 @@ package com.example;
 import java.lang.Math;
 import java.util.Scanner;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Calculator 
 {
+
+	private static Logger logger = LogManager.getLogger(Calculator.class);
     public static void main( String[] args )
     {
 		// Take input from the user
 		Scanner sc = new Scanner(System.in);
 		sc.nextLine();
         System.out.println("IMT2019029's scientific calculator");
+
 
 		while(true){
 			System.out.println("Enter the number of operation you want to perform:");
@@ -64,11 +70,22 @@ public class Calculator
     }
 
 	public static double squareRoot(double n){
-		return Math.sqrt(n);
+		if(n < 0){
+			logger.error("Invalid input!");
+			return -1;
+		}
+		double result = Math.sqrt(n);
+		logger.info("Square root of " + n + " is " + result);
+		return result;
 	}
 
 	public static double factorial(double n)
     {
+		if(n < 0){
+			logger.error("Invalid input!");
+			return -1;
+		}
+
         double result = 1;
 
         if(Math.floor(n) != n)
@@ -79,20 +96,33 @@ public class Calculator
         {
             result *= i;
         }
+		logger.info("Factorial of " + n + " is " + result);
         return result;
     }
 
     public static double log(double n)
     {
-        return Math.log(n);
+		if(n < 0){
+			logger.error("Invalid input!");
+			return -1;
+		}
+
+		double result = Math.log(n);
+		logger.info("Logarithm of " + n + " is " + result);
+        
+		return result;
     }
 
     public static double exponential(double a, double x)
     {
         if(Math.floor(x) != x)
         {
+			logger.error("Invalid input!");
             return -1;
         }
+
+		double result = Math.pow(a, x);
+		logger.info(a + " to the power of " + x + " is " + result);
         return Math.pow(a, x);
     }
 }
