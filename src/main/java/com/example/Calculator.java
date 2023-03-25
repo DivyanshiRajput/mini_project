@@ -13,6 +13,8 @@ public class Calculator
     public static void main( String[] args )
     {
 		// Take input from the user
+		// changes for demo 
+		System.out.println("demo push");
 		System.out.println("To start press enter");
 		Scanner sc = new Scanner(System.in);
 		String s = sc.nextLine();
