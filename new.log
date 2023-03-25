@@ -1,0 +1,25 @@
+2023-03-25 06:26:58.998 [main] INFO  com.example.Calculator - Square root of 100.0 is 10.0
+2023-03-25 06:27:03.160 [main] INFO  com.example.Calculator - Square root of 1000.0 is 31.622776601683793
+2023-03-25 06:27:05.070 [main] INFO  com.example.Calculator - Logarithm of 2.0 is 0.6931471805599453
+2023-03-25 06:27:06.597 [main] INFO  com.example.Calculator - Factorial of 3.0 is 6.0
+2023-03-25 06:27:10.725 [main] INFO  com.example.Calculator - 4.0 to the power of 4.0 is 256.0
+2023-03-25 06:27:13.211 [main] INFO  com.example.Calculator - Square root of 100.0 is 10.0
+2023-03-25 06:27:14.912 [main] INFO  com.example.Calculator - Logarithm of 100.0 is 4.605170185988092
+2023-03-25 06:27:17.957 [main] INFO  com.example.Calculator - Factorial of 100.0 is 9.33262154439441E157
+2023-03-25 06:27:21.203 [main] INFO  com.example.Calculator - 100.0 to the power of 100.0 is 1.0E200
+2023-03-25 06:27:23.084 [main] INFO  com.example.Calculator - Square root of 10.0 is 3.1622776601683795
+2023-03-25 06:27:25.848 [main] INFO  com.example.Calculator - Logarithm of 100.0 is 4.605170185988092
+2023-03-25 06:27:27.893 [main] INFO  com.example.Calculator - Factorial of 10.0 is 3628800.0
+2023-03-25 06:27:30.702 [main] INFO  com.example.Calculator - 10.0 to the power of 10.0 is 1.0E10
+2023-03-25 06:27:36.262 [main] ERROR com.example.Calculator - Invalid input!
+2023-03-25 06:27:47.241 [main] INFO  com.example.Calculator - Factorial of 10.0 is 3628800.0
+2023-03-25 06:27:49.564 [main] INFO  com.example.Calculator - Factorial of 1.0 is 1.0
+2023-03-25 06:27:51.214 [main] INFO  com.example.Calculator - Factorial of 2.0 is 2.0
+2023-03-25 06:27:52.663 [main] INFO  com.example.Calculator - Factorial of 4.0 is 24.0
+2023-03-25 06:27:55.797 [main] INFO  com.example.Calculator - 2.0 to the power of 2.0 is 4.0
+2023-03-25 06:27:59.654 [main] INFO  com.example.Calculator - 10.0 to the power of 100.0 is 1.0E100
+2023-03-25 06:28:05.891 [main] INFO  com.example.Calculator - 2.4 to the power of 5.0 is 79.62623999999998
+2023-03-25 06:28:10.951 [main] INFO  com.example.Calculator - 3.0 to the power of 2.0 is 9.0
+2023-03-25 06:28:15.329 [main] ERROR com.example.Calculator - Invalid input!
+2023-03-25 06:28:33.096 [main] INFO  com.example.Calculator - Factorial of 10.0 is 3628800.0
+2023-03-25 06:34:44.109 [main] INFO  com.example.Calculator - Square root of 1.0E11 is 316227.7660168379

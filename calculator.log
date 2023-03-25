@@ -1,9 +1,4 @@
-2023-03-23 12:12:27.219 [main] INFO  com.example.Calculator - Logarithm of 1.0 is 0.0
-2023-03-23 12:12:27.223 [main] INFO  com.example.Calculator - Square root of 9.0 is 3.0
-2023-03-23 12:12:27.224 [main] INFO  com.example.Calculator - Factorial of 5.0 is 120.0
-2023-03-23 12:12:27.227 [main] INFO  com.example.Calculator - 5.0 to the power of 0.0 is 1.0
-2023-03-23 12:12:45.272 [main] INFO  com.example.Calculator - Factorial of 5.0 is 120.0
-2023-03-23 12:13:12.550 [main] INFO  com.example.Calculator - Square root of 9.0 is 3.0
-2023-03-23 12:13:56.121 [main] INFO  com.example.Calculator - Factorial of 2.0 is 2.0
-2023-03-23 12:14:03.817 [main] INFO  com.example.Calculator - Square root of 2.0 is 1.4142135623730951
-2023-03-23 12:14:12.097 [main] INFO  com.example.Calculator - 3.0 to the power of 3.0 is 27.0
+2023-03-25 05:57:47.317 [main] INFO  com.example.Calculator - Square root of 10.0 is 3.1622776601683795
+2023-03-25 05:57:50.246 [main] INFO  com.example.Calculator - Logarithm of 10.0 is 2.302585092994046
+2023-03-25 05:57:53.031 [main] INFO  com.example.Calculator - Factorial of 100.0 is 9.33262154439441E157
+2023-03-25 05:57:58.055 [main] INFO  com.example.Calculator - 10.0 to the power of 20.0 is 1.0E20

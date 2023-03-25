@@ -13,10 +13,10 @@ public class Calculator
     public static void main( String[] args )
     {
 		// Take input from the user
+		System.out.println("To start press enter");
 		Scanner sc = new Scanner(System.in);
-		sc.nextLine();
+		String s = sc.nextLine();
         System.out.println("IMT2019029's scientific calculator");
-
 
 		while(true){
 			System.out.println("Enter the number of operation you want to perform:");
